@@ -1,0 +1,35 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+button{
+  height: 5vh;
+  width: 5vw;
+  align-self: center;
+}
+
+.usersContainer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-self: stretch;
+  justify-content: space-between;
+}
+
+.user{
+  flex-basis: 18%;
+  border: 2px solid rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+}
+
+p{
+  flex-grow: 1;
+}
+
+#processMessage{
+  visibility: hidden;
+  align-self: center;
+}
